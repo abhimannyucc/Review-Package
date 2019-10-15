@@ -4,17 +4,15 @@ import {View,Text} from 'react-native';
 var styles = StyleSheet.create({
     
     app: {
+        flex:1,
         justifyContent: 'center',
         alignItems: 'center',
-        width:"100%",
-        height:'100%'
     },
     night: {
+        flex:1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#262626',
-        width:"100%",
-        height:'100%'
+        backgroundColor: 'black',
     }
 })
 
